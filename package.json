@@ -1,0 +1,21 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --presets=@babel/env --source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "prisma-client-lib": "^1.29.1"
+  }
+}
